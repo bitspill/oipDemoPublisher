@@ -6,8 +6,9 @@ import (
 	"github.com/bitspill/flod/chaincfg"
 	"github.com/bitspill/flod/rpcclient"
 	"github.com/bitspill/floutil"
-	"github.com/oipwg/oip/modules/oip5/templates"
 	"github.com/oipwg/oip/publishing"
+	"github.com/oipwg/proto/go/pb_oip5"
+	"github.com/oipwg/proto/go/pb_oip5/pb_templates"
 )
 
 var floAddress = "F..."
@@ -15,13 +16,13 @@ var floWifKey = "R..."
 
 func main() {
 
-	registeredPublisherInfo := &templates.Tmpl_433C2783{Name: "I Like Plants Too"}
+	registeredPublisherInfo := &pb_templates.Tmpl_433C2783{Name: "I Like Plants Too"}
 
-	details, err := oip5.CreateOipDetails(registeredPublisherInfo)
+	details, err := pb_oip5.CreateOipDetails(registeredPublisherInfo)
 	check(err)
 
-	registration := &oip5.OipFive{
-		Record: &oip5.RecordProto{
+	registration := &pb_oip5.OipFive{
+		Record: &pb_oip5.RecordProto{
 			Details: details,
 		},
 	}
