@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package oipProto.templates;
+
+option go_package = "templates";
+
+// Checklist plant
+message tmpl_025412C9 {
+    string Symbol = 1;
+    string SynonymSymbol = 2;
+    string ScientificNameWithAuthor = 3;
+    string CommonName = 4;
+    string Family = 5;
+}

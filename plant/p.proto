@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package oipProto.templates;
+
+option go_package = "templates";
+
+// When creating a new type message must be named P
+message P {
+    string Symbol = 1;
+    string SynonymSymbol = 2;
+    string ScientificNameWithAuthor = 3;
+    string CommonName = 4;
+    string Family = 5;
+}

@@ -1,0 +1,20 @@
+https://www.plants.usda.gov/dl_all.html
+
+The Complete PLANTS Checklist is nearly 7 MB and includes
+Symbol, Synonym Symbol, Scientific Name with Authors, National Common Name, and Family.
+Fields in this text file are delimited by commas and enclosed in double quotes.
+You can import this file into many databases or spreadsheets.
+For example, first save the .txt file, then open in Microsoft Excel by specifying
+"Text Files" in the file type scroll box, and import by specifying "Comma" as the delimiter.
+Or use the file directly in Excel: copy it from the screen, paste it into a new worksheet,
+and select "Text to Columns..." from the Data menu. The complete PLANTS checklist may have
+more records than Excel allows, so you might need to split it into two worksheets.
+
+Download the Complete PLANTS Checklist (6.8 MB text file)
+https://www.plants.usda.gov/java/downloadData?fileName=plantlst.txt&static=true
+
+
+
+
+USDA, NRCS. 2019. The PLANTS Database (http://plants.usda.gov, 4 September 2019).
+National Plant Data Team, Greensboro, NC 27401-4901 USA.

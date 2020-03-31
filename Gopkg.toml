@@ -1,0 +1,24 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/bitspill/flod"
+  branch = "master"
+
+[[constraint]]
+  name = "github.com/bitspill/floutil"
+  branch = "master"
+
+[[constraint]]
+  name = "github.com/golang/protobuf"
+  version = "v1.3.5"
+
+[[constraint]]
+  name = "github.com/oipwg/oip"
+  branch = "master"
+
+[[constraint]]
+  name = "github.com/oipwg/proto"
+  branch = "master"
+  source = "github.com/bitspill/proto"
